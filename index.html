@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LABI</title>
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/output.css" />
+    <link rel="icon" href="./svg/Logo 1.svg">
+  </head>
+  <body>
+    <header class="">
+      <div class="container1 flex items-center justify-between py-[11px]">
+        <img class="w-[71px] h-[58px]" src="./svg/Logo.svg" alt="" />
+        <div class="flex items-center gap-12 max-[560px]:hidden">
+          <a class="text-[#232323] text-[16px]" href="mailo:welcome@labi.agency"
+            >welcome@labi.agency</a
+          >
+          <div class="flex items-center gap-5">
+            <a class="text-[#232323] text-[16px]" href="tel:+7 921 366 04 32"
+              >+7 921 366 04 32</a
+            >
+            <img src="./svg/whatsapp.svg" alt="" />
+          </div>
+        </div>
+        <div class="flex items-center gap-[50px]">
+          <button
+            class="border border-[#0f265c] p-[8px_25px] text-[18px] font-medium hover:bg-[#b1b1b1] hover:rounded-[8px] hover:transition-all hover:duration-700 hover:text-white hover:border-none max-[910px]:hidden"
+          >
+            Заказать звонок
+          </button>
+          <label for="check">
+            <img class="" src="./svg/Menu -bar.svg" alt=""
+          /></label>
+        </div>
+      </div>
+    </header>
+    <div class="container1 pt-[20px]">
+      <input class="hidden" type="checkbox" id="check" />
+
+      <div class="menu overflow-y-auto">
+        <label for="check"
+          ><i class="fa-solid fa-x absolute top-5 right-5"></i
+        ></label>
+        <div class="flex flex-col gap-2.5">
+          <a href="#">Главная</a>
+          <a href="#">Услуги</a>
+          <a href="#">Тех. требования</a>
+          <a href="#">О нас</a>
+          <a href="#">Вакансии</a>
+          <a href="#">Контакты</a>
+        </div>
+        <hr class="my-[20px] text-[#a0a0a0]" />
+
+        <div class="flex flex-col gap-2.5">
+          <div
+            class="flex items-center gap-2.5 text-[23px] font-medium text-[#232323]"
+          >
+            <a href="#">Типография</a>
+            <i class="fa-solid text-[14px] fa-chevron-down"></i>
+          </div>
+          <div
+            class="flex items-center gap-2.5 text-[23px] font-medium text-[#232323]"
+          >
+            <a href="#">Выставки</a>
+            <i class="fa-solid text-[14px] fa-chevron-down"></i>
+          </div>
+          <div
+            class="flex items-center gap-2.5 text-[23px] font-medium text-[#232323]"
+          >
+            <a href="#">Дизайн и диджитал</a>
+            <i class="fa-solid text-[14px] fa-chevron-down"></i>
+          </div>
+          <div
+            class="flex items-center gap-2.5 text-[23px] font-medium text-[#232323]"
+          >
+            <a href="#">Производство рекламы</a>
+            <i class="fa-solid text-[14px] fa-chevron-down"></i>
+          </div>
+          <div
+            class="flex items-center gap-2.5 text-[23px] font-medium text-[#232323]"
+          >
+            <a href="#">Сувенирная продукция</a>
+            <i class="fa-solid text-[14px] fa-chevron-down"></i>
+          </div>
+          <div
+            class="flex items-center gap-2.5 text-[23px] font-medium text-[#232323]"
+          >
+            <a href="#">BTL</a>
+            <i class="fa-solid text-[14px] fa-chevron-down"></i>
+          </div>
+        </div>
+
+        <hr class="my-[20px] text-[#a0a0a0]" />
+
+        <div class="flex flex-col gap-[23px]">
+          <img class="w-[61px] h-[51px]" src="./svg/Logo.svg" alt="" />
+          <a class="text-[#232323] text-" href="#">Пн.-Вс. с 9:00 до 21:00</a>
+          <div class="flex items-center gap-2.5">
+            <i class="fa-solid fa-phone text-[#8d8484]"></i>
+            <a
+              class="text-[16px] font-medium text-[#232323]"
+              href="tel:+7 921 366 04 32"
+              >+7 921 366 04 32</a
+            >
+          </div>
+          <div class="flex items-center gap-2.5">
+            <img src="./svg/Message.svg" alt="" />
+            <a
+              class="text-[16px] font-medium text-[#232323]"
+              href="mailo:welcome@labi.agency"
+              >welcome@labi.agency</a
+            >
+          </div>
+          <div class="flex items-center gap-2.5">
+            <img src="./svg/pin.svg" alt="" />
+            <a
+              class="text-[16px] max-[350px]:text-[10px] font-medium text-[#232323]"
+              href="tel:+7 921 366 04 32"
+              >г. Санкт-Петербург, Караваевская улица, 33к5</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="m-[30px_0_50px_0]">
+      <div class="container1">
+        <h1
+          class="text-[#232323] text-[45px] font-bold max-w-[750px] max-[750px]:text-[30px] max-[390px]:text-[25px]"
+        >
+          Мы дополняем Вашу задачу нашим дизайном
+        </h1>
+        <p class="text-[#232323] text-[16px] p-[15px_0_40px_0]">
+          Рекламно-производственная компания и комплексное рекламное агентство
+        </p>
+        <div class="flex items-center gap-5 max-[515px]:flex-col">
+          <button
+            class="bg-[#0f265c] text-[#fff] text-[18px] font-medium p-[8px_25px] max-[515px]:w-full"
+          >
+            Оставить заявку
+          </button>
+          <button
+            class="border-[#0f265c] border text-[#232323] text-[18px] font-medium p-[8px_25px] max-[515px]:w-full"
+          >
+            Рассчитать стоимость
+          </button>
+        </div>
+      </div>
+    </section>
+    <div class="container1 flex flex-col gap-5">
+      <div
+        class="flex items-center gap-5 max-[470px]:flex-col max-[470px]:items-start"
+      >
+        <div class="flex items-center gap-2">
+          <img class="w-[15px] h-[18px]" src="./svg/top.svg" alt="" />
+          <h3
+            class="text-[#363636] font-semibold text-[22px] max-[342px]:text-[17px]"
+          >
+            Акции и спецпредложения
+          </h3>
+        </div>
+        <p class="text-[#a0a0a0] text-[14px]">Показать ещё</p>
+      </div>
+      <div class="overflow-x-scroll">
+        <div
+          class="flex items-center justify-between px-[40px] max-[835px]:w-[835px]"
+        >
+          <p class="text-[#7a7a7a] font-medium text-[16px]">Сезон календарей</p>
+          <p class="text-[#7a7a7a] font-medium text-[16px]">Сезон календарей</p>
+          <p class="text-[#7a7a7a] font-medium text-[16px]">Сезон календарей</p>
+          <p class="text-[#7a7a7a] font-medium text-[16px]">Сезон календарей</p>
+        </div>
+      </div>
+    </div>
+    <section class="max-[400px]:hidden pt-[50px]">
+      <div
+        class="container1 flex items-center justify-around text-[#676767] text-[22px] max-[650px]:text-[14px] font-bold max-[400px]:grid max-[400px]:grid-cols-2"
+      >
+        <p>Типография</p>
+        <p>Выставки</p>
+        <p>Дизайн</p>
+        <p>Производство</p>
+      </div>
+    </section>
+    <section class="mt-[20px]">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./img/card-1.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/card-2.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/card-3.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/card-4.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/card-5.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/card-6.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/card-7.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/card-2.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/card-4.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- 2 -->
+
+      <div class="swiper mySwiper2 mt-[20px]">
+        <div class="swiper-wrapper max-[400px]:text-center">
+          <div class="swiper-slide">
+            <img src="./img/item-1.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/item-2.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/item-3.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/item-4.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/item-5.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/item-6.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/item-2.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/item-3.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/item-6.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pt-[50px] hidden max-[400px]:block">
+      <div
+        class="container1 flex items-center justify-around text-[#676767] text-[22px] max-[650px]:text-[14px] font-bold max-[400px]:grid max-[400px]:grid-cols-2"
+      >
+        <p>Типография</p>
+        <p>Выставки</p>
+        <p>Дизайн</p>
+        <p>Производство</p>
+      </div>
+    </section>
+    <section class="mt-[40px]">
+      <div class="container1">
+        <div class="flex flex-col gap-[30px]">
+          <div>
+            <h1 class="text-[32px] font-bold text-[#232323]">
+              <span class="text-[#8a0f0c]">LA</span
+              ><span class="text-[#0f265c]">BI</span> — значит «хорошо»
+            </h1>
+            <p class="text-[#232323] font-normal text-[16px]">
+              Именно так мы делаем нашу работу. Качественно и ответственно
+            </p>
+          </div>
+          <div
+            class="max-w-[618px] flex flex-col gap-2.5 text-[#232323] texy-[16px]"
+          >
+            <p>
+              А ещё это искусный и умелый. В LABI мы считаем, что это достаточно
+              важные качества для рекламно-производственной компании
+            </p>
+            <p>
+              И ещё это можно перевести, как удачный. Именно такой выбор вы
+              сделаете, начав сотрудничество с LABI agency
+            </p>
+          </div>
+        </div>
+        <div
+          class="mt-[50px] flex items-center justify-between max-[777px]:grid max-[777px]:grid-cols-2 max-[777px]:gap-5 max-[410px]:flex max-[410px]:flex-col"
+        >
+          <!-- 1 -->
+          <div class="flex flex-col">
+            <div class="flex items-center gap-2.5">
+              <img src="./svg/top.svg" alt="" />
+              <h4>Опыт</h4>
+            </div>
+            <h1
+              class="text-[#363636] max-[600px]:text-[50px] text-[62px] font-bold"
+            >
+              15+
+            </h1>
+            <p class="text-[#363636] text-[16px]">Более 15 лет опыта</p>
+          </div>
+          <!-- 2 -->
+          <div class="flex flex-col">
+            <div class="flex items-center gap-2.5">
+              <img src="./svg/top.svg" alt="" />
+              <h4>Опыт</h4>
+            </div>
+            <h1
+              class="text-[#363636] max-[600px]:text-[50px] text-[62px] font-bold"
+            >
+              680
+            </h1>
+            <p class="text-[#363636] text-[16px]">Более 15 лет опыта</p>
+          </div>
+          <!-- 3 -->
+          <div class="flex flex-col">
+            <div class="flex items-center gap-2.5">
+              <img src="./svg/top.svg" alt="" />
+              <h4>Опыт</h4>
+            </div>
+            <h1
+              class="text-[#363636] text-[62px] max-[600px]:text-[50px] font-bold"
+            >
+              3127
+            </h1>
+            <p class="text-[#363636] text-[16px]">Более 15 лет опыта</p>
+          </div>
+          <!-- 4 -->
+          <div class="flex flex-col r">
+            <div class="flex items-center gap-2.5">
+              <img src="./svg/top.svg" alt="" />
+              <h4>Опыт</h4>
+            </div>
+            <h1
+              class="text-[#363636] text-[62px] max-[600px]:text-[50px] font-bold"
+            >
+              2793
+            </h1>
+            <p class="text-[#363636] text-[16px]">Более 15 лет опыта</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-[#f8f8f8] mt-[100px]">
+      <div class="container1 p-[30px_0_60px_0]">
+        <h2
+          class="text-[32px] font-bold text-[#232323] max-[900px]:text-center max-[310px]:text-[25px]"
+        >
+          С <span class="text-[#8a0f0c]">LA</span
+          ><span class="text-[#0f265c]">BI</span> выгодно работать
+        </h2>
+        <div class="flex gap-[15px] bg-[#fff] mt-[20px]">
+          <img
+            class="w-full max-[1247px]:hidden"
+            src="./img/Advantages img.png"
+            alt=""
+          />
+          <div
+            class="w-full p-[20px_0_20px_20px] max-[600px]:pl-0 flex flex-col justify-between"
+          >
+            <div
+              class="flex items-center justify-between mb-10 max-[535px]:flex-col max-[535px]:gap-5"
+            >
+              <!-- 1 -->
+              <div class="flex flex-col gap-2.5">
+                <img
+                  class="w-[40px] h-[32px] pl-[10px]"
+                  src="./svg/icon-1.svg"
+                  alt=""
+                />
+                <div class="flex items-center gap-2.5">
+                  <img src="./svg/top.svg" alt="" />
+                  <h3 class="text-[#232323] text-[18px] font-bold">
+                    Комплексный подход
+                  </h3>
+                </div>
+                <p class="text-[#363636] text-[16px] max-w-[267px]">
+                  Мы можем и любим решать комплексные задачи наших клиентов. От
+                  печати полиграфии или дизайна до масштабной рекламной кампании
+                </p>
+              </div>
+              <!-- 2 -->
+              <div class="flex flex-col gap-2.5">
+                <img
+                  class="w-[40px] h-[32px] pl-[10px]"
+                  src="./svg/pin.svg"
+                  alt=""
+                />
+                <div class="flex items-center gap-2.5">
+                  <img src="./svg/top.svg" alt="" />
+                  <h3 class="text-[#232323] text-[18px] font-bold">
+                    Комплексный подход
+                  </h3>
+                </div>
+                <p class="text-[#363636] text-[16px] max-w-[267px]">
+                  Мы можем и любим решать комплексные задачи наших клиентов. От
+                  печати полиграфии или дизайна до масштабной рекламной кампании
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex items-center justify-between max-[535px]:flex-col max-[535px]:gap-5"
+            >
+              <!-- 3 -->
+              <div class="flex flex-col gap-2.5">
+                <img
+                  class="w-[40px] h-[32px] pl-[10px]"
+                  src="./svg/icon-2.svg"
+                  alt=""
+                />
+                <div class="flex items-center gap-2.5">
+                  <img src="./svg/top.svg" alt="" />
+                  <h3 class="text-[#232323] text-[18px] font-bold">
+                    Комплексный подход
+                  </h3>
+                </div>
+                <p class="text-[#363636] text-[16px] max-w-[267px]">
+                  Мы можем и любим решать комплексные задачи наших клиентов. От
+                  печати полиграфии или дизайна до масштабной рекламной кампании
+                </p>
+              </div>
+              <!-- 4 -->
+              <div class="flex flex-col gap-2.5">
+                <img
+                  class="w-[40px] h-[32px] pl-[10px]"
+                  src="./svg/Star_light.svg"
+                  alt=""
+                />
+                <div class="flex items-center gap-2.5">
+                  <img src="./svg/top.svg" alt="" />
+                  <h3 class="text-[#232323] text-[18px] font-bold">
+                    Комплексный подход
+                  </h3>
+                </div>
+                <p class="text-[#363636] text-[16px] max-w-[267px]">
+                  Мы можем и любим решать комплексные задачи наших клиентов. От
+                  печати полиграфии или дизайна до масштабной рекламной кампании
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="flex items-center gap-5 m-[20px_0_0_20px] max-[600px]:flex-col max-[600px]:ml-0"
+            >
+              <button
+                class="bg-[#0f265c] text-[#fff] text-[18px] font-medium p-[8px_25px] max-[600px]:w-full"
+              >
+                Оставить заявку
+              </button>
+              <button
+                class="border-[#0f265c] border text-[#232323] text-[18px] font-medium p-[8px_25px] max-[600px]:w-full"
+              >
+                Рассчитать стоимость
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-[120px]">
+      <div class="container1">
+        <h2
+          class="text-[#232323] text-[32px] font-sans max-[550px]:text-center max-[320px]:text-[25px]"
+        >
+          Как мы работаем
+        </h2>
+        <div
+          class="grid grid-cols-6 gap-5 mt-[30px] max-[1160px]:grid-cols-3 max-[550px]:grid-cols-2 max-[350px]:grid-cols-1"
+        >
+          <!-- 1 -->
+          <div class="flex flex-col items-center justify-center text-center">
+            <img class="w-[50px] h-[50px]" src="./svg/Message.svg" alt="" />
+            <p class="text-[#232323] font-normal text-[16px]">
+              Вы отправляете заявку или звоните нам в офис
+            </p>
+          </div>
+          <!-- 2 -->
+          <div class="flex flex-col items-center justify-center text-center">
+            <img class="w-[50px] h-[50px]" src="./svg/calendar1.svg" alt="" />
+            <p class="text-[#232323] font-normal text-[16px]">
+              Вы отправляете заявку или звоните нам в офис
+            </p>
+          </div>
+          <!-- 3 -->
+          <div class="flex flex-col items-center justify-center text-center">
+            <img class="w-[50px] h-[50px]" src="./svg/payment1.svg" alt="" />
+            <p class="text-[#232323] font-normal text-[16px]">
+              Вы отправляете заявку или звоните нам в офис
+            </p>
+          </div>
+          <!-- 4 -->
+          <div class="flex flex-col items-center justify-center text-center">
+            <img class="w-[50px] h-[50px]" src="./svg/draw1.svg" alt="" />
+            <p class="text-[#232323] font-normal text-[16px]">
+              Вы отправляете заявку или звоните нам в офис
+            </p>
+          </div>
+          <!-- 5 -->
+          <div class="flex flex-col items-center justify-center text-center">
+            <img class="w-[50px] h-[50px]" src="./svg/Gears 1.svg" alt="" />
+            <p class="text-[#232323] font-normal text-[16px]">
+              Вы отправляете заявку или звоните нам в офис
+            </p>
+          </div>
+          <!-- 6 -->
+          <div class="flex flex-col items-center justify-center text-center">
+            <img class="w-[50px] h-[50px]" src="./svg/Layer_1.svg" alt="" />
+            <p class="text-[#232323] font-normal text-[16px]">
+              Вы отправляете заявку или звоните нам в офис
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-[100px]">
+      <div class="container1">
+        <h3
+          class="text-[#232323] text-[32px] font-bold max-[320px]:text-center"
+        >
+          Нам доверяют
+        </h3>
+        <p class="text-[#232323] text-[16px] max-[320px]:text-center">
+          Мы помогли множеству клиентов воплотить их идеи в реальность
+        </p>
+        <div
+          class="flex items-center justify-around mt-[50px] flex-wrap max-[415px]:hidden"
+        >
+          <div class="flex flex-col">
+            <img class="w-[144px] h-[100px]" src="./svg/box-1.svg" alt="" />
+            <img class="w-[144px] h-[100px]" src="./svg/box-2.svg" alt="" />
+            <img class="w-[144px] h-[100px]" src="./svg/box-3.svg" alt="" />
+            <img class="w-[144px] h-[100px]" src="./svg/box-4.svg" alt="" />
+            <img class="w-[144px] h-[100px]" src="./svg/box-5.svg" alt="" />
+          </div>
+          <div class="flex flex-col">
+            <img class="w-[144px] h-[100px]" src="./svg/box-6.svg" alt="" />
+            <img class="w-[144px] h-[100px]" src="./svg/box-7.svg" alt="" />
+            <img class="w-[144px] h-[100px]" src="./svg/box-8.svg" alt="" />
+            <img class="w-[144px] h-[100px]" src="./svg/box-9.svg" alt="" />
+            <img class="w-[144px] h-[100px]" src="./svg/box-10.svg" alt="" />
+          </div>
+          <div class="flex flex-col">
+            <img class="w-[144px] h-[100px]" src="./svg/box-11.svg" alt="" />
+            <img class="w-[144px] h-[100px]" src="./svg/box-12.svg" alt="" />
+            <img class="w-[144px] h-[100px]" src="./svg/box-13.svg" alt="" />
+            <img class="w-[144px] h-[100px]" src="./svg/box-14.svg" alt="" />
+            <img class="w-[144px] h-[100px]" src="./svg/box-15.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="hidden max-[415px]:block mt-[40px]">
+          <div class="swiper mySwiper3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="flex flex-col items-center">
+                  <img
+                    class="w-[144px] h-[100px]"
+                    src="./svg/box-1.svg"
+                    alt=""
+                  />
+                  <img
+                    class="w-[144px] h-[100px]"
+                    src="./svg/box-2.svg"
+                    alt=""
+                  />
+                  <img
+                    class="w-[144px] h-[100px]"
+                    src="./svg/box-3.svg"
+                    alt=""
+                  />
+                  <img
+                    class="w-[144px] h-[100px]"
+                    src="./svg/box-4.svg"
+                    alt=""
+                  />
+                  <img
+                    class="w-[144px] h-[100px]"
+                    src="./svg/box-5.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="flex flex-col items-center">
+                  <img
+                    class="w-[144px] h-[100px]"
+                    src="./svg/box-6.svg"
+                    alt=""
+                  />
+                  <img
+                    class="w-[144px] h-[100px]"
+                    src="./svg/box-7.svg"
+                    alt=""
+                  />
+                  <img
+                    class="w-[144px] h-[100px]"
+                    src="./svg/box-8.svg"
+                    alt=""
+                  />
+                  <img
+                    class="w-[144px] h-[100px]"
+                    src="./svg/box-9.svg"
+                    alt=""
+                  />
+                  <img
+                    class="w-[144px] h-[100px]"
+                    src="./svg/box-10.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="flex flex-col items-center">
+                  <img
+                    class="w-[144px] h-[100px]"
+                    src="./svg/box-11.svg"
+                    alt=""
+                  />
+                  <img
+                    class="w-[144px] h-[100px]"
+                    src="./svg/box-12.svg"
+                    alt=""
+                  />
+                  <img
+                    class="w-[144px] h-[100px]"
+                    src="./svg/box-13.svg"
+                    alt=""
+                  />
+                  <img
+                    class="w-[144px] h-[100px]"
+                    src="./svg/box-14.svg"
+                    alt=""
+                  />
+                  <img
+                    class="w-[144px] h-[100px]"
+                    src="./svg/box-15.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="flex items-center justify-between">
+            <div class="prev"><i class="fa-solid fa-chevron-left"></i></div>
+            <div class="next"><i class="fa-solid fa-chevron-right"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-[100px]">
+      <div class="container1 flex gap-10">
+        <img
+          class="w-[60%] max-[910px]:hidden"
+          src="./img/ Form Img.png"
+          alt=""
+        />
+        <div class="flex flex-col gap-12">
+          <div class="flex flex-col gap-10">
+            <h2 class="text-[#232323] text-[25px] font-semibold">
+              Возникла идея? Свяжитесь с нами!
+            </h2>
+            <div class="flex flex-col gap-5">
+              <div class="flex items-center gap-2.5">
+                <i class="fa-solid fa-phone text-[#8d8484]"></i>
+                <a
+                  class="text-[16px] font-medium text-[#232323]"
+                  href="tel:+7 921 366 04 32"
+                  >+7 921 366 04 32</a
+                >
+              </div>
+              <div class="flex items-center gap-2.5">
+                <img src="./svg/Message.svg" alt="" />
+                <a
+                  class="text-[16px] font-medium text-[#232323]"
+                  href="mailo:welcome@labi.agency"
+                  >welcome@labi.agency</a
+                >
+              </div>
+              <div class="flex items-center gap-2.5">
+                <img src="./svg/pin.svg" alt="" />
+                <a
+                  class="text-[16px] max-[350px]:text-[10px] font-medium text-[#232323]"
+                  href="tel:+7 921 366 04 32"
+                  >г. Санкт-Петербург, Караваевская улица, 33к5</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-[35px]">
+            <div>
+              <p class="text-[#c8c8c8] text-[14px]">или</p>
+              <h2 class="text-[#232323] text-[25px] font-semibold">
+                Оставьте заявку
+              </h2>
+              <p class="text-[16px] font-normal text-[#232323]">
+                Наш менеджер свяжется с вами в течение 30 минут
+              </p>
+            </div>
+            <div class="flex flex-col gap-5">
+              <input
+                class="bg-[#f3f3f3] outline-none p-[15px_0_15px_10px] rounded-[8px]"
+                type="text"
+                placeholder="Ваше имя"
+              />
+              <input
+                class="bg-[#f3f3f3] outline-none p-[15px_0_15px_10px] rounded-[8px]"
+                type="text"
+                placeholder="Адрес почты"
+              />
+              <input
+                class="bg-[#f3f3f3] outline-none p-[15px_0_15px_10px] rounded-[8px]"
+                type="tel"
+                placeholder="Номер телефона"
+              />
+            </div>
+          </div>
+          <div class="flex items-center gap-12 w-full max-[810px]:flex-col">
+            <button
+              class="bg-[#0f265c] text-white p-[10px_20px] text-[18px] font-medium rounded-[8px] max-[810px]:w-full"
+            >
+              Оставить заявку
+            </button>
+            <p class="text-[#7a7a7a] text-[14px]">
+              Оставляя заявку, вы принимаете условия
+              <span class="underline">пользовательского соглашения</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt-[65px] bg-[#f3f3f3]">
+      <div class="container1 py-[40px]">
+        <div class="flex flex-col gap-[50px]">
+          <!-- 1 -->
+          <div
+            class="flex items-center justify-between max-[910px]:grid max-[910px]:grid-cols-2 max-[910px]:gap-4 max-[425px]:grid-cols-1"
+          >
+            <div class="flex flex-col gap-[20px]">
+              <img class="w-[61px] h-[51px]" src="./svg/Logo.svg" alt="" />
+              <a class="text-[#232323] text-" href="#"
+                >Пн.-Вс. с 9:00 до 21:00</a
+              >
+              <div class="flex items-center gap-2.5">
+                <i class="fa-solid fa-phone text-[#8d8484]"></i>
+                <a
+                  class="text-[16px] font-medium text-[#232323]"
+                  href="tel:+7 921 366 04 32"
+                  >+7 921 366 04 32</a
+                >
+              </div>
+              <div class="flex items-center gap-2.5">
+                <img src="./svg/Message.svg" alt="" />
+                <a
+                  class="text-[16px] font-medium text-[#232323]"
+                  href="mailo:welcome@labi.agency"
+                  >welcome@labi.agency</a
+                >
+              </div>
+              <div class="flex items-center gap-2.5">
+                <img src="./svg/pin.svg" alt="" />
+                <a
+                  class="text-[16px] max-[350px]:text-[10px] max-w-[250px] font-medium text-[#232323]"
+                  href="tel:+7 921 366 04 32"
+                  >г. Санкт-Петербург, Караваевская улица, 33к5</a
+                >
+              </div>
+            </div>
+            <div class="flex flex-col gap-2.5">
+              <h2 class="text-[#232323] text-[16px] font-bold">Типография</h2>
+              <div class="flex flex-col gap-2.5 text-[16px] font-normal">
+                <a href="#">Наклейки</a>
+                <a href="#">Открытки и сертификаты</a>
+                <a href="#">Плакаты и афиши</a>
+                <a href="#">Дипломы и грамоты</a>
+                <a href="#">Календари</a>
+                <a href="#">Каталоги и буклеты</a>
+                <a href="#">Листовки</a>
+                <a href="#">Визитки</a>
+              </div>
+            </div>
+            <div class="flex flex-col gap-2.5">
+              <h2 class="text-[#232323] text-[16px] font-bold">Типография</h2>
+              <div class="flex flex-col gap-2.5 text-[16px] font-normal">
+                <a href="#">Наклейки</a>
+                <a href="#">Открытки и сертификаты</a>
+                <a href="#">Плакаты и афиши</a>
+                <a href="#">Дипломы и грамоты</a>
+                <a href="#">Календари</a>
+                <a href="#">Каталоги и буклеты</a>
+                <a href="#">Листовки</a>
+                <a href="#">Визитки</a>
+              </div>
+            </div>
+            <div class="flex flex-col gap-2.5">
+              <h2 class="text-[#232323] text-[16px] font-bold">Типография</h2>
+              <div class="flex flex-col gap-2.5 text-[16px] font-normal">
+                <a href="#">Наклейки</a>
+                <a href="#">Открытки и сертификаты</a>
+                <a href="#">Плакаты и афиши</a>
+                <a href="#">Дипломы и грамоты</a>
+                <a href="#">Календари</a>
+                <a href="#">Каталоги и буклеты</a>
+                <a href="#">Листовки</a>
+                <a href="#">Визитки</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2 -->
+
+          <div
+            class="flex items-center justify-between max-[910px]:grid max-[910px]:grid-cols-2 max-[910px]:gap-4 max-[425px]:grid-cols-1"
+          >
+            <div
+              class="text-[#232323] text-[16px] font-bold flex flex-col gap-2.5"
+            >
+              <h2><a href="#">Главная</a></h2>
+              <h2><a href="#">Услуги</a></h2>
+              <h2><a href="#">Тех. требования</a></h2>
+              <h2><a href="#">О нас</a></h2>
+              <h2><a href="#">Вакансии</a></h2>
+              <h2><a href="#">Контакты</a></h2>
+            </div>
+            <div class="flex flex-col gap-2.5">
+              <h2 class="text-[#232323] text-[16px] font-bold">Типография</h2>
+              <div class="flex flex-col gap-2.5 text-[16px] font-normal">
+                <a href="#">Наклейки</a>
+                <a href="#">Открытки и сертификаты</a>
+                <a href="#">Плакаты и афиши</a>
+                <a href="#">Дипломы и грамоты</a>
+                <a href="#">Календари</a>
+                <a href="#">Каталоги и буклеты</a>
+                <a href="#">Листовки</a>
+                <a href="#">Визитки</a>
+              </div>
+            </div>
+            <div class="flex flex-col gap-2.5">
+              <h2 class="text-[#232323] text-[16px] font-bold">Типография</h2>
+              <div class="flex flex-col gap-2.5 text-[16px] font-normal">
+                <a href="#">Наклейки</a>
+                <a href="#">Открытки и сертификаты</a>
+                <a href="#">Плакаты и афиши</a>
+                <a href="#">Дипломы и грамоты</a>
+                <a href="#">Календари</a>
+                <a href="#">Каталоги и буклеты</a>
+                <a href="#">Листовки</a>
+                <a href="#">Визитки</a>
+              </div>
+            </div>
+            <div class="flex flex-col gap-2.5">
+              <h2 class="text-[#232323] text-[16px] font-bold">Типография</h2>
+              <div class="flex flex-col gap-2.5 text-[16px] font-normal">
+                <a href="#">Наклейки</a>
+                <a href="#">Открытки и сертификаты</a>
+                <a href="#">Плакаты и афиши</a>
+                <a href="#">Дипломы и грамоты</a>
+                <a href="#">Календари</a>
+                <a href="#">Каталоги и буклеты</a>
+                <a href="#">Листовки</a>
+                <a href="#">Визитки</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div
+      class="flex bg-[#bbbbbb] flex-col gap-[5px] text-[#7a7a7a] text-[16px] py-[12px] justify-center items-center"
+    >
+      <p>Политика конфиденциальности</p>
+      <p>© 2021 LABI.agency</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper3", {
+        autoHeight: true,
+        spaceBetween: 20,
+        navigation: {
+          nextEl: ".next",
+          prevEl: ".prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+      var swiper = new Swiper(".mySwiper2", {
+        autoplay: {
+          delay: 2000,
+        },
+        loop: true,
+
+        slidesPerView: 7,
+        spaceBetween: 10,
+        breakpoints: {
+          200: {
+            slidesPerView: 1,
+          },
+          400: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          640: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          1000: {
+            slidesPerView: 5,
+            spaceBetween: 10,
+          },
+          1200: {
+            slidesPerView: 7,
+            spaceBetween: 10,
+          },
+        },
+      });
+      var swiper = new Swiper(".mySwiper", {
+        autoplay: {
+          delay: 1500,
+        },
+        loop: true,
+
+        slidesPerView: 7,
+        spaceBetween: 10,
+        breakpoints: {
+          200: {
+            slidesPerView: 1,
+          },
+          400: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          640: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          1000: {
+            slidesPerView: 5,
+            spaceBetween: 10,
+          },
+          1200: {
+            slidesPerView: 7,
+            spaceBetween: 10,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
